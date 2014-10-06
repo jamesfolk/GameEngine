@@ -29,6 +29,10 @@
 								</outputEntries>
 							</builder>
 							<tool id="com.android.gcc.compiler.532711097" name="Android GCC Compiler" superClass="com.android.gcc.compiler">
+								<option id="com.android.gcc.option.includePath.194740441" superClass="com.android.gcc.option.includePath" valueType="includePath">
+									<listOptionValue builtIn="false" value="/Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/core"/>
+									<listOptionValue builtIn="false" value="/Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/platform/common"/>
+								</option>
 								<inputType id="com.android.gcc.inputType.1950670591" superClass="com.android.gcc.inputType"/>
 							</tool>
 						</toolChain>
