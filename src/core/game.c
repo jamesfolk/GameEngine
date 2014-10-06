@@ -22,7 +22,7 @@
 //                              1.0f,  1.0f, 1.0f, 1.0f};
 
 void on_surface_created() {
-    glClearColor(1.0f, 0.0f, 0.0f, 0.0f);
+    glClearColor(0.0f, 1.0f, 1.0f, 0.0f);
 }
 
 void on_surface_changed() {

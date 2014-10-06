@@ -1,6 +1,6 @@
-/Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/platform/android/obj/local/armeabi-v7a/objs/game//Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/core/buffer.o: \
- /Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/core/buffer.c \
- /Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/core/buffer.h \
+/Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/platform/android/obj/local/armeabi-v7a/objs/game//Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src//core/buffer.o: \
+ /Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src//core/buffer.c \
+ /Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src//core/buffer.h \
  /Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/platform/android/jni/platform_gl.h \
  /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/GLES2/gl2.h \
  /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/GLES2/gl2platform.h \
@@ -32,7 +32,7 @@
  /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/sys/sysmacros.h \
  /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/memory.h
 
-/Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/core/buffer.h:
+/Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src//core/buffer.h:
 
 /Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/platform/android/jni/platform_gl.h:
 

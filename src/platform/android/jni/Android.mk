@@ -1,8 +1,11 @@
 LOCAL_PATH := $(call my-dir)
 
-CORE_RELATIVE_PATH := /Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/core
-COMMON_RELATIVE_PATH := /Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/platform/common
-THIRDPARTY_RELATIVE_PATH := /Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/3rdParty
+#SRC_PATH := $(LOCAL_PATH)/../../../../../src
+SRC_PATH := /Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/
+
+CORE_RELATIVE_PATH := $(SRC_PATH)/core
+COMMON_RELATIVE_PATH := $(SRC_PATH)/platform/common
+THIRDPARTY_RELATIVE_PATH := $(SRC_PATH)/3rdParty
 
 include $(CLEAR_VARS)
  

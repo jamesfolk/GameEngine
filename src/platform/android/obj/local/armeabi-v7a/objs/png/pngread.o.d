@@ -1,6 +1,6 @@
 /Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/platform/android/obj/local/armeabi-v7a/objs/png/pngread.o: \
- /Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/3rdParty/libpng/pngread.c \
- /Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/3rdParty/libpng/pngpriv.h \
+ /Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src//3rdParty/libpng/pngread.c \
+ /Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src//3rdParty/libpng/pngpriv.h \
  /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/stdlib.h \
  /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/sys/cdefs.h \
  /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/sys/cdefs_elf.h \
@@ -26,9 +26,9 @@
  /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/asm-generic/posix_types.h \
  /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/sys/sysmacros.h \
  /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/memory.h \
- /Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/3rdParty/libpng/pnglibconf.h \
- /Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/3rdParty/libpng/png.h \
- /Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/3rdParty/libpng/pngconf.h \
+ /Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src//3rdParty/libpng/pnglibconf.h \
+ /Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src//3rdParty/libpng/png.h \
+ /Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src//3rdParty/libpng/pngconf.h \
  /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/limits.h \
  /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/sys/limits.h \
  /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/linux/limits.h \
@@ -40,18 +40,18 @@
  /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/sys/time.h \
  /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/linux/time.h \
  /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/math.h \
- /Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/3rdParty/libpng/pngstruct.h \
+ /Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src//3rdParty/libpng/pngstruct.h \
  /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/zlib.h \
  /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/zconf.h \
- /Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/3rdParty/libpng/pnginfo.h \
- /Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/3rdParty/libpng/pngdebug.h \
+ /Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src//3rdParty/libpng/pnginfo.h \
+ /Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src//3rdParty/libpng/pngdebug.h \
  /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/errno.h \
  /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/linux/errno.h \
  /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/asm/errno.h \
  /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/asm-generic/errno.h \
  /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/asm-generic/errno-base.h
 
-/Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/3rdParty/libpng/pngpriv.h:
+/Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src//3rdParty/libpng/pngpriv.h:
 
 /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/stdlib.h:
 
@@ -103,11 +103,11 @@
 
 /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/memory.h:
 
-/Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/3rdParty/libpng/pnglibconf.h:
+/Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src//3rdParty/libpng/pnglibconf.h:
 
-/Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/3rdParty/libpng/png.h:
+/Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src//3rdParty/libpng/png.h:
 
-/Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/3rdParty/libpng/pngconf.h:
+/Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src//3rdParty/libpng/pngconf.h:
 
 /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/limits.h:
 
@@ -131,15 +131,15 @@
 
 /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/math.h:
 
-/Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/3rdParty/libpng/pngstruct.h:
+/Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src//3rdParty/libpng/pngstruct.h:
 
 /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/zlib.h:
 
 /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/zconf.h:
 
-/Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/3rdParty/libpng/pnginfo.h:
+/Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src//3rdParty/libpng/pnginfo.h:
 
-/Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/3rdParty/libpng/pngdebug.h:
+/Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src//3rdParty/libpng/pngdebug.h:
 
 /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/errno.h:
 

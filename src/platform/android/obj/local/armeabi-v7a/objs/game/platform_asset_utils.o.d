@@ -1,11 +1,11 @@
 /Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/platform/android/obj/local/armeabi-v7a/objs/game/platform_asset_utils.o: \
  /Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/platform/android/jni/platform_asset_utils.c \
- /Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/platform/common/platform_asset_utils.h \
- /Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/platform/common/platform_file_utils.h \
- /Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/core/macros.h \
- /Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/platform/common/platform_log.h \
- /Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/platform/common/platform_macros.h \
- /Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/core/config.h \
+ /Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src//platform/common/platform_asset_utils.h \
+ /Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src//platform/common/platform_file_utils.h \
+ /Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src//core/macros.h \
+ /Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src//platform/common/platform_log.h \
+ /Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src//platform/common/platform_macros.h \
+ /Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src//core/config.h \
  /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/android/asset_manager_jni.h \
  /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/android/asset_manager.h \
  /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/sys/types.h \
@@ -29,17 +29,17 @@
  /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/jni.h \
  /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/assert.h
 
-/Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/platform/common/platform_asset_utils.h:
+/Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src//platform/common/platform_asset_utils.h:
 
-/Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/platform/common/platform_file_utils.h:
+/Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src//platform/common/platform_file_utils.h:
 
-/Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/core/macros.h:
+/Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src//core/macros.h:
 
-/Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/platform/common/platform_log.h:
+/Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src//platform/common/platform_log.h:
 
-/Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/platform/common/platform_macros.h:
+/Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src//platform/common/platform_macros.h:
 
-/Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/core/config.h:
+/Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src//core/config.h:
 
 /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/android/asset_manager_jni.h:
 
