@@ -117,14 +117,6 @@
 			<value>$%7BPARENT-3-PROJECT_LOC%7D/assets</value>
 		</variable>
 		<variable>
-			<name>COMMON_SRC_LOC</name>
-			<value>$%7BCOMMON_SRC_LOC%7D</value>
-		</variable>
-		<variable>
-			<name>CORE_SRC_LOC</name>
-			<value>$%7BCORE_SRC_LOC%7D</value>
-		</variable>
-		<variable>
 			<name>assets</name>
 			<value>file:/Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/assets</value>
 		</variable>

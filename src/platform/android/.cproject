@@ -38,8 +38,8 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="common"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="jni"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="common"/>
 						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="core"/>
 					</sourceEntries>
 				</configuration>
@@ -55,5 +55,8 @@
 		<scannerConfigBuildInfo instanceId="com.android.toolchain.gcc.1594336626;com.android.toolchain.gcc.1594336626.140987883;com.android.gcc.compiler.532711097;com.android.gcc.inputType.1950670591">
 			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.android.AndroidPerProjectProfile"/>
 		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="refreshScope" versionNumber="1">
+		<resource resourceType="PROJECT" workspacePath="/JLIGameEngine"/>
 	</storageModule>
 </cproject>
