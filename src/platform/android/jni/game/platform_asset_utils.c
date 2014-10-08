@@ -5,21 +5,43 @@
 #include <android/asset_manager_jni.h>
 #include <assert.h>
 
-static AAssetManager* asset_manager;
+#define TAG "asset_util"
 
-FileData get_asset_data(const char* relative_path) {
-	assert(relative_path != NULL);
-	AAsset* asset = AAssetManager_open(asset_manager, relative_path,
-			AASSET_MODE_STREAMING);
-	assert(asset != NULL);
+AAssetManager* asset_manager = NULL;
 
-	return (FileData) {AAsset_getLength(asset), AAsset_getBuffer(asset), asset};
-		}
-
-void release_asset_data(const FileData* file_data) {
+void release_asset_data(FileData* file_data) {
 	assert(file_data != NULL);
-	assert(file_data->file_handle != NULL);
-	AAsset_close((AAsset*) file_data->file_handle);
+	assert(file_data->data != NULL);
+
+    free(file_data->data);
+    file_data->data = NULL;
+}
+
+FileData get_asset_data(const char* filename)
+{
+	assert(asset_manager);
+
+	void* data = NULL;
+	size_t data_size = 0;
+
+    AAsset* file = AAssetManager_open(asset_manager, filename, AASSET_MODE_STREAMING);
+    if(file) {
+        off_t file_size = AAsset_getLength(file);
+        data = malloc(file_size);
+        data_size = file_size;
+
+        DEBUG_LOG_PRINT_D(TAG, "Successfully loaded file %s (length=%d)", filename, data_size);
+
+        AAsset_read(file, data, file_size);
+        AAsset_close(file);
+        file = NULL;
+    }
+    else
+    {
+    	DEBUG_LOG_PRINT_D(TAG, "Failed to load file %s", filename);
+    }
+
+    return (FileData) {data_size, data};
 }
 
 /*

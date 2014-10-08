@@ -19,6 +19,7 @@ public class MainActivity extends Activity {
 	    super.onCreate(savedInstanceState);
 	 
 	    GameLibJNIWrapper.initAssetManager(getAssets());
+	    
 	    ActivityManager activityManager
 	        = (ActivityManager) getSystemService(Context.ACTIVITY_SERVICE);
 	    ConfigurationInfo configurationInfo = activityManager.getDeviceConfigurationInfo();

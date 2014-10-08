@@ -1,8 +1,7 @@
 #pragma once
 typedef struct {
     const long data_length;
-    const void* data;
-    const void* file_handle;
+    void* data;
 } FileData;
 
 FileData get_file_data(const char* path);
