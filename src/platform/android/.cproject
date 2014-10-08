@@ -33,8 +33,6 @@
 									<listOptionValue builtIn="false" value="/Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/core"/>
 									<listOptionValue builtIn="false" value="/Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/platform/common"/>
 									<listOptionValue builtIn="false" value="/Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/platform/android/jni/game"/>
-									<listOptionValue builtIn="false" value="/Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/platform/android/jni/libpng"/>
-									<listOptionValue builtIn="false" value="/Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/platform/android/jni/libzip"/>
 								</option>
 								<inputType id="com.android.gcc.inputType.1950670591" superClass="com.android.gcc.inputType"/>
 							</tool>
