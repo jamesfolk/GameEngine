@@ -35,6 +35,7 @@ public class MainActivity extends Activity {
 	 
 	        glSurfaceView.setEGLContextClientVersion(2);
 	        glSurfaceView.setRenderer(new RendererWrapper());
+	        //GameLibJNIWrapper.init_asset_manager(this.getAssets());
 	        rendererSet = true;
 	        setContentView(glSurfaceView);
 	    } else {

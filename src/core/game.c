@@ -1,25 +1,25 @@
 #include "game.h"
-//#include "asset_utils.h"
-//#include "buffer.h"
-//#include "image.h"
+#include "asset_utils.h"
+#include "buffer.h"
+#include "image.h"
 #include "platform_gl.h"
-//#include "platform_asset_utils.h"
-//#include "shader.h"
-//#include "texture.h"
-//
-//static GLuint texture;
-//static GLuint buffer;
-//static GLuint program;
-//
-//static GLint a_position_location;
-//static GLint a_texture_coordinates_location;
-//static GLint u_texture_unit_location;
-//
-//// position X, Y, texture S, T
-//static const float rect[] = {-1.0f, -1.0f, 0.0f, 0.0f,
-//                             -1.0f,  1.0f, 0.0f, 1.0f,
-//                              1.0f, -1.0f, 1.0f, 0.0f,
-//                              1.0f,  1.0f, 1.0f, 1.0f};
+#include "platform_asset_utils.h"
+#include "shader.h"
+#include "texture.h"
+
+static GLuint texture;
+static GLuint buffer;
+static GLuint program;
+
+static GLint a_position_location;
+static GLint a_texture_coordinates_location;
+static GLint u_texture_unit_location;
+
+// position X, Y, texture S, T
+static const float rect[] = {-1.0f, -1.0f, 0.0f, 0.0f,
+                             -1.0f,  1.0f, 0.0f, 1.0f,
+                              1.0f, -1.0f, 1.0f, 0.0f,
+                              1.0f,  1.0f, 1.0f, 1.0f};
 
 void on_surface_created() {
     glClearColor(0.0f, 1.0f, 1.0f, 0.0f);

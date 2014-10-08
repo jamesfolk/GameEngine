@@ -28,7 +28,7 @@ void release_asset_data(const FileData* file_data) {
  * Signature: (Landroid/content/res/AssetManager;)V
  */
 JNIEXPORT void JNICALL Java_com_example_jilgameengine_GameLibJNIWrapper_init_1asset_1manager(
-		JNIEnv * env, jclass jclazz, jobject java_asset_manager) {
+		JNIEnv * env, jclass jclazz){
 	UNUSED(jclazz);
-	asset_manager = AAssetManager_fromJava(env, java_asset_manager);
+//	asset_manager = AAssetManager_fromJava(env, java_asset_manager);
 }

@@ -98,8 +98,8 @@ static PngInfo read_and_update_info(const png_structp png_ptr, const png_infop i
     // Ensure 8-bit packing
     if (bit_depth < 8)
        png_set_packing(png_ptr);
-    else if (bit_depth == 16)
-        png_set_scale_16(png_ptr);
+//    else if (bit_depth == 16)
+//        png_set_scale_16(png_ptr);
 
     png_read_update_info(png_ptr, info_ptr);
 
