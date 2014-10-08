@@ -1,5 +1,5 @@
-/Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/platform/android/obj/local/armeabi-v7a/objs/game/platform_asset_utils.o: \
- /Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/platform/android/jni/platform_asset_utils.c \
+obj/local/armeabi-v7a/objs/game/platform_asset_utils.o: \
+ jni/platform_asset_utils.c \
  /Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src//platform/common/platform_asset_utils.h \
  /Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src//platform/common/platform_file_utils.h \
  /Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src//core/macros.h \

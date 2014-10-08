@@ -1,5 +1,4 @@
-/Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/platform/android/obj/local/armeabi-v7a/objs/game/platform_log.o: \
- /Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/platform/android/jni/platform_log.c \
+obj/local/armeabi-v7a/objs/game/platform_log.o: jni/platform_log.c \
  /Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src//platform/common/platform_log.h \
  /Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src//platform/common/platform_macros.h \
  /Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src//core/config.h \
