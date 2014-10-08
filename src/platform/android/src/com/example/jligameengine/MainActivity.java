@@ -18,6 +18,7 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 	    super.onCreate(savedInstanceState);
 	 
+	    GameLibJNIWrapper.initAssetManager(getAssets());
 	    ActivityManager activityManager
 	        = (ActivityManager) getSystemService(Context.ACTIVITY_SERVICE);
 	    ConfigurationInfo configurationInfo = activityManager.getDeviceConfigurationInfo();

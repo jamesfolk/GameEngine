@@ -13,5 +13,5 @@ public class GameLibJNIWrapper {
  
     public static native void on_draw_frame();
     
-//    public static native void init_asset_manager(AssetManager assetManager);
+    public static native void initAssetManager(AssetManager assetManager);
 }
