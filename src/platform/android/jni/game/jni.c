@@ -33,7 +33,7 @@ JNIEXPORT void JNICALL Java_com_example_jligameengine_GameLibJNIWrapper_on_1surf
 
 	UNUSED(width);
 	UNUSED(height);
-	on_surface_changed();
+	on_surface_changed(width, height);
 }
 
 /*
