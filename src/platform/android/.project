@@ -101,22 +101,22 @@
 			<locationURI>ASSETS_LOC</locationURI>
 		</link>
 		<link>
-			<name>common</name>
+			<name>jni/common</name>
 			<type>2</type>
 			<location>/Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/platform/common</location>
 		</link>
 		<link>
-			<name>core</name>
+			<name>jni/core</name>
 			<type>2</type>
 			<location>/Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/core</location>
 		</link>
 		<link>
-			<name>libpng</name>
+			<name>libs/libpng</name>
 			<type>2</type>
 			<location>/Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/3rdParty/libpng</location>
 		</link>
 		<link>
-			<name>libzip</name>
+			<name>libs/libzip</name>
 			<type>2</type>
 			<location>/Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/3rdParty/libzip</location>
 		</link>

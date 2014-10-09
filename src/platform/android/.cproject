@@ -35,7 +35,7 @@
 									<listOptionValue builtIn="false" value="/Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/platform/android/jni/game"/>
 									<listOptionValue builtIn="false" value="/Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/3rdParty/libpng"/>
 									<listOptionValue builtIn="false" value="/Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/3rdParty/libzip"/>
-									<listOptionValue builtIn="false" value="&quot;${ANDROID_NDK}/sources/cxx-stl/stlport/stlport&quot;"/>
+									<listOptionValue builtIn="false" value="/sources/cxx-stl/stlport/stlport"/>
 								</option>
 								<inputType id="com.android.gcc.inputType.1950670591" superClass="com.android.gcc.inputType"/>
 							</tool>
@@ -43,8 +43,6 @@
 					</folderInfo>
 					<sourceEntries>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="jni"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="common"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="core"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
