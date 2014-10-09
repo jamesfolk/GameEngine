@@ -4,6 +4,7 @@
 #include "platform_log.h"
 #include <android/asset_manager_jni.h>
 #include <assert.h>
+#include <stdlib.h>
 
 #define TAG "asset_util"
 

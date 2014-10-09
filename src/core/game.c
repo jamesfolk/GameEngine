@@ -6,6 +6,7 @@
 #include "platform_asset_utils.h"
 #include "shader.h"
 #include "texture.h"
+#include <stdlib.h>
 
 static GLuint texture;
 static GLuint buffer;
@@ -85,7 +86,7 @@ int Init()//ESContext *esContext)
 {
 //   UserData *userData = esContext->userData;
    GLbyte vShaderStr[] =
-      "attribute vec4 vPosition;   \n"
+      "attribute vec3 vPosition;   \n"
       "void main()                 \n"
       "{                           \n"
       "  gl_Position = vPosition;  \n"
@@ -105,8 +106,8 @@ int Init()//ESContext *esContext)
    GLint linked;
 
   // Load the vertex/fragment shaders
-  vertexShader = LoadShader(GL_VERTEX_SHADER, vShaderStr);
-  fragmentShader = LoadShader(GL_FRAGMENT_SHADER, fShaderStr);
+  vertexShader = LoadShader(vShaderStr, GL_VERTEX_SHADER);
+  fragmentShader = LoadShader(fShaderStr, GL_FRAGMENT_SHADER);
 
   // Create the program object
   programObject = glCreateProgram();
@@ -187,21 +188,24 @@ void Draw()//ESContext *esContext)
 void on_surface_created() {
     glClearColor(0.0f, 1.0f, 0.0f, 0.0f);
 
+//	texture = load_png_asset_into_texture("textures/air_hockey_surface.png");
+//	buffer = create_vbo(sizeof(rect), rect, GL_STATIC_DRAW);
+//	program = build_program_from_assets("shaders/shader.vsh", "shaders/shader.fsh");
+//
+//	a_position_location = glGetAttribLocation(program, "a_Position");
+
     Init();
 }
 
 void on_surface_changed(int width, int height) {
 	// Set the viewport
-	   glViewport(0, 0, width, height);
+   glViewport(0, 0, width, height);
 
-//    texture = load_png_asset_into_texture("textures/air_hockey_surface.png");
-//    buffer = create_vbo(sizeof(rect), rect, GL_STATIC_DRAW);
-//    program = build_program_from_assets("shaders/texture_shader.vsh", "shaders/texture_shader.fsh");
-//
-//    a_position_location = glGetAttribLocation(program, "a_Position");
-//    a_texture_coordinates_location =
-//        glGetAttribLocation(program, "a_TextureCoordinates");
-//    u_texture_unit_location = glGetUniformLocation(program, "u_TextureUnit");
+
+
+    a_texture_coordinates_location =
+        glGetAttribLocation(program, "a_TextureCoordinates");
+    u_texture_unit_location = glGetUniformLocation(program, "u_TextureUnit");
 }
 
 void on_draw_frame() {
@@ -211,19 +215,24 @@ void on_draw_frame() {
 //
 //    glUseProgram(program);
 //
-//    glActiveTexture(GL_TEXTURE0);
-//    glBindTexture(GL_TEXTURE_2D, texture);
-//    glUniform1i(u_texture_unit_location, 0);
+//    glBindBuffer(GL_ARRAY_BUFFER, buffer);
+//
+//    glBindBuffer(GL_ARRAY_BUFFER, 0);
+
+//    glUseProgram(program);
+//
+////    glActiveTexture(GL_TEXTURE0);
+////    glBindTexture(GL_TEXTURE_2D, texture);
+////    glUniform1i(u_texture_unit_location, 0);
 //
 //    glBindBuffer(GL_ARRAY_BUFFER, buffer);
 //    glVertexAttribPointer(a_position_location, 2, GL_FLOAT, GL_FALSE,
 //        4 * sizeof(GL_FLOAT), BUFFER_OFFSET(0));
-//    glVertexAttribPointer(a_texture_coordinates_location, 2, GL_FLOAT, GL_FALSE,
-//        4 * sizeof(GL_FLOAT), BUFFER_OFFSET(2 * sizeof(GL_FLOAT)));
+////    glVertexAttribPointer(a_texture_coordinates_location, 2, GL_FLOAT, GL_FALSE,
+////        4 * sizeof(GL_FLOAT), BUFFER_OFFSET(2 * sizeof(GL_FLOAT)));
 //    glEnableVertexAttribArray(a_position_location);
-//    glEnableVertexAttribArray(a_texture_coordinates_location);
+////    glEnableVertexAttribArray(a_texture_coordinates_location);
 //    glDrawArrays(GL_TRIANGLE_STRIP, 0, 4);
-//
+
 //    glBindBuffer(GL_ARRAY_BUFFER, 0);
 }
-

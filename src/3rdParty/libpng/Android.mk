@@ -36,7 +36,7 @@ LOCAL_SRC_FILES :=\
 	pngwtran.c \
 	pngwutil.c 
 	
-LOCAL_LDLIBS := -lz
+#LOCAL_LDLIBS := -lz
 
 #include $(BUILD_SHARED_LIBRARY)
 include $(BUILD_STATIC_LIBRARY)
