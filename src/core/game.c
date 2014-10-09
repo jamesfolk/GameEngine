@@ -85,29 +85,44 @@ GLuint LoadShader(const char *shaderSrc, GLenum type)
 int Init()//ESContext *esContext)
 {
 //   UserData *userData = esContext->userData;
-   GLbyte vShaderStr[] =
-      "attribute vec3 vPosition;   \n"
-      "void main()                 \n"
-      "{                           \n"
-      "  gl_Position = vPosition;  \n"
-      "}                           \n";
-
-   GLbyte fShaderStr[] =
-      "precision mediump float;                   \n"
-      "void main()                                \n"
-      "{                                          \n"
-	  "  vec4 color(0.0, 0.0, 1.0, 1.0);          \n"
-      "  gl_FragColor = color;                    \n"
-      "}                                          \n";
+//   GLbyte vShaderStr[] =
+//      "attribute vec3 vPosition;   \n"
+//      "void main()                 \n"
+//      "{                           \n"
+//      "  gl_Position = vPosition;  \n"
+//      "}                           \n";
+//
+//   GLbyte fShaderStr[] =
+//      "precision mediump float;                   \n"
+//      "void main()                                \n"
+//      "{                                          \n"
+//	  "  vec4 color(0.0, 0.0, 1.0, 1.0);          \n"
+//      "  gl_FragColor = color;                    \n"
+//      "}                                          \n";
 
    GLuint vertexShader;
    GLuint fragmentShader;
    GLuint programObject;
    GLint linked;
 
+
+
+
+
+
+
+
+
+	FileData vertex_shader_source = get_asset_data("shaders/shader.vsh");
+	FileData fragment_shader_source = get_asset_data("shaders/shader.fsh");
+
+
   // Load the vertex/fragment shaders
-  vertexShader = LoadShader(vShaderStr, GL_VERTEX_SHADER);
-  fragmentShader = LoadShader(fShaderStr, GL_FRAGMENT_SHADER);
+  vertexShader = LoadShader(vertex_shader_source.data, GL_VERTEX_SHADER);
+  fragmentShader = LoadShader(fragment_shader_source.data, GL_FRAGMENT_SHADER);
+
+	release_asset_data(&vertex_shader_source);
+	release_asset_data(&fragment_shader_source);
 
   // Create the program object
   programObject = glCreateProgram();

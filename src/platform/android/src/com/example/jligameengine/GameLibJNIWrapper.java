@@ -5,6 +5,7 @@ import android.content.res.AssetManager;
 public class GameLibJNIWrapper {
     static {
         System.loadLibrary("game");
+        System.loadLibrary("stlport_shared");
     }
  
     public static native void on_surface_created();
