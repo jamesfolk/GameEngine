@@ -1,16 +1,18 @@
+
+
 LOCAL_PATH := $(call my-dir)
 
 #MY_SRC_PATH := $(LOCAL_PATH)/../../../../src/
 #SRC_PATH := /Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/
 
-
-
 include $(CLEAR_VARS)
 
 MY_CORE_RELATIVE_PATH := /Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/core
 MY_COMMON_RELATIVE_PATH := /Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/platform/common/
-#MY_THIRTPARTY_RELATIVE_PATH := /Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/3rdParty
-MY_THIRTPARTY_RELATIVE_PATH := $(LOCAL_PATH)/../
+MY_THIRTPARTY_RELATIVE_PATH := /Users/jamesfolk/Dropbox/GameDevelopment/JLIGameEngine/src/3rdParty
+#MY_THIRTPARTY_RELATIVE_PATH := $(LOCAL_PATH)/../
+
+
 
 LOCAL_MODULE := game
 
